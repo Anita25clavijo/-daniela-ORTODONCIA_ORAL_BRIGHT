@@ -1,0 +1,194 @@
+*{
+	margin :auto;
+	padding: auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+    
+}
+body{
+    font-family: 'century gothic';
+	margin: 0;
+    padding: 0;
+    background: url(../../IMAGENES/fondo.jpeg);
+    background-size: 100vw 700px;
+    background-repeat: repeat;
+}
+/*.........MENU................................*/
+.navegacion{
+    width: auto;
+    height: 90px;
+	margin-top:30px;
+	margin-left: 0;
+	background: #0063A0;
+    align-items: center;
+    border-radius: 20px;
+}
+.navegacion ul{
+    width: auto;
+    left: auto;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu >li{
+	position: relative;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.menu>li> a{
+	display: block;
+	padding:25px 15px;
+	color: #fff;
+	font-family:'tahoma';
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:#01C5A2;
+	transition: all .4s;
+}
+.submenu{
+	position: absolute;
+    background: #0063A0;	
+	visibility:hidden;
+	opacity: 0;
+	transition: opacity 1.2s;
+}
+.submenu li a{
+	display: block;
+	padding:10px ;
+	color: #fff;
+	font-family:'tahoma';
+	text-decoration: none;
+	
+}
+.menu li:hover .submenu{
+	visibility:visible;
+	opacity: 1; 
+}
+i {
+	margin-right: 6px;
+}
+/*........... Formulario....................*/
+body {
+	font-family:arial;
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+}
+form{
+	border:2px solid #009fda;
+	width: 35%;
+}
+.contenedor {
+	width: 105%;
+	padding: 30px;
+}
+.formulario{
+	position: absolute;
+	background:#fff;
+	margin-top: 140px;
+	padding: 4px;
+	left:420px;
+}
+h1{
+	text-align: center;
+	color: #009fda;
+	font-size:40px; 
+}
+select{
+	margin-bottom: 6px;
+	width: 90%;
+	height: 30px;
+	border:1px solid #cccccc;
+	margin-left: 15px;
+	font-size: 16px;
+	margin-top: 5px;
+	color: #555555;
+}
+.input-contenedor{
+	margin-bottom: 25px;
+	border: 1px solid  #aaa;
+}	
+.button{
+	border: none;
+	width: 90%;
+	color: white;
+	font-size: 20px;
+	background: #1E90FF;
+	padding: 5px 0px;
+	border-radius: 5px;
+	cursor:pointer;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 45px;
+    border:1px solid #757575;
+}
+.button:hover{
+	background: #00BFFF;
+}
+
+section{
+	font-family:sans-serif;
+}
+legend, label{
+	font-weight:bold;
+}
+label{
+	display: block;
+	padding-top: 20px;
+	padding-left: 12px;
+	font-size: 13px;
+	color: #555555;
+}
+div.block{
+	display: block;
+	margin-bottom: 1px;
+}
+p{
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #555555;
+}
+input.p{
+	margin-top:1;
+	
+}
+
+
+input{
+	margin-bottom: 6px;
+	width: 90%;
+	height: 30px;
+	border:1px solid #cccccc;
+	margin-left: 12px;
+	margin-top: 5px;
+	font-size: 13px;
+	color:#555555;
+}
+input[type=checkbox]{
+
+	width: 5%;
+	border-radius: 2px;
+	margin-top:45px;
+}
+fieldset{
+	margin-bottom: 10px;
+}
+legend{
+	margin-bottom: 20px;
+}
+p.boton{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+ 
+v

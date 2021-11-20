@@ -1,0 +1,211 @@
+body {
+    font-family: 'century gothic';
+	margin: 0;
+    padding: 0;
+    background: url(../IMAGENES/fondo.jpeg);
+    background-size: 100vw 500%;
+    
+}
+*{
+	box-sizing: border-box;
+}
+/*.........MENU................................*/
+.navegacion{
+    width: auto;
+    display: flex;
+    height: 120px;
+	margin-top:55px;
+	margin-left: 0;
+	background: #0063A0;
+    align-items: center;
+    border-radius: 20px;
+    justify-content:center;
+}
+.menu{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+}
+
+.menu li{
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: 0;
+    border-right: 1px solid #015C94;
+    position: relative;
+}
+.menu .first-item{
+    border-left: 1px solid #015C94;
+}
+.menu li a {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    
+}
+.menu .imagen {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 0%;
+    z-index: 20;
+    border-radius: 30px;
+}
+.menu li a .text-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    -webkit-transition: .4s ease;
+    -0-transition:.4s ease;
+    transition: .4s ease
+    
+}
+.menu li a .down-item{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: #0063A0; 
+    
+    -webkit-transition: .4s ease;
+    -0-transition:.4s ease;
+    transition: .4s ease;
+}
+.menu li:hover .down-item,.menu li:hover .text-item{
+       top: 100%;
+       height: 115%;
+    
+}
+.menu li:hover .imagen{
+    width: 100%;
+    right: 0px;
+     -webkit-transition: .4s ease;
+    -0-transition:.4s ease;
+    transition: .4s ease;
+}
+/*........... Formulario....................*/
+body {
+	font-family:arial;
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+}
+form{
+	border:2px solid #009fda;
+	width: 35%;
+}
+.contenedor {
+	width: 105%;
+	padding: 30px;
+}
+.formulario{
+	position:center;
+	background:#fff;
+	margin-top: 140px;
+	padding: 4px;
+	left:420px;
+}
+h1{
+	text-align: center;
+	color: #009fda;
+	font-size:40px; 
+}
+select{
+	margin-bottom: 6px;
+	width: 90%;
+	height: 30px;
+	border:1px solid #cccccc;
+	margin-left: 15px;
+	font-size: 16px;
+	margin-top: 5px;
+	color: #555555;
+}
+.input-contenedor{
+	margin-bottom: 25px;
+	border: 1px solid  #aaa;
+}	
+.button{
+	border: none;
+	width: 90%;
+	color: white;
+	font-size: 20px;
+	background: #1E90FF;
+	padding: 5px 0px;
+	border-radius: 5px;
+	cursor:pointer;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 45px;
+    border:1px solid #757575;
+}
+.button:hover{
+	background: #00BFFF;
+}
+
+section{
+	font-family:sans-serif;
+}
+legend, label{
+	font-weight:bold;
+}
+label{
+	display: block;
+	padding-top: 20px;
+	padding-left: 12px;
+	font-size: 13px;
+	color: #555555;
+}
+div.block{
+	display: block;
+	margin-bottom: 1px;
+}
+p{
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #555555;
+}
+input.p{
+	margin-top:1;
+	
+}
+
+
+input{
+	margin-bottom: 6px;
+	width: 90%;
+	height: 30px;
+	border:1px solid #cccccc;
+	margin-left: 12px;
+	margin-top: 5px;
+	font-size: 13px;
+	color:#555555;
+}
+input[type=checkbox]{
+
+	width: 5%;
+	border-radius: 2px;
+	margin-top:45px;
+}
+fieldset{
+	margin-bottom: 10px;
+}
+legend{
+	margin-bottom: 20px;
+}
+p.boton{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+ 

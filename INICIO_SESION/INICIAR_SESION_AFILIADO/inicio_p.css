@@ -1,0 +1,73 @@
+*{
+	margin :auto;
+	padding: auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+    
+}
+body{
+    font-family: 'century gothic';
+	margin: 0;
+    padding: 0;
+    background: url(../../IMAGENES/fondo.jpeg);
+    background-size: 100vw 700px;
+    background-repeat: repeat;
+}
+/*.........MENU................................*/
+.navegacion{
+    width: auto;
+    height: 90px;
+	margin-top:30px;
+	margin-left: 0;
+	background: #0063A0;
+    align-items: center;
+    border-radius: 20px;
+}
+.navegacion ul{
+    width: auto;
+    left: auto;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu >li{
+	position: relative;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.menu>li> a{
+	display: block;
+	padding:25px 30px;
+	color: #fff;
+	font-family:'tahoma';
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:#01C5A2;
+	transition: all .4s;
+}
+.submenu{
+    background: #0063A0;	
+	visibility:hidden;
+	opacity: 0;
+	transition: opacity 1.2s;
+}
+.submenu li a{
+	display: block;
+	padding:10px;
+	color: #fff;
+	font-family:'tahoma';
+	text-decoration: none;
+	
+}
+.menu li:hover .submenu{
+	visibility:visible;
+	opacity: 1; 
+}
+i {
+	margin-right: 6px;
+}

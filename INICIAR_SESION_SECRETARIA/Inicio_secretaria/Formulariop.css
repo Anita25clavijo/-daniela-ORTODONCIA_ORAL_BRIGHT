@@ -1,0 +1,203 @@
+*{
+	margin :auto;
+	padding: auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+    
+}
+body{
+    font-family: 'century gothic';
+	margin: 0;
+    padding: 0;
+    background: url(../../IMAGENES/fondo.jpeg);
+    background-size: 100vw 700px;
+    background-repeat: repeat;
+}
+/*.........MENU................................*/
+.navegacion{
+    width: auto;
+    height: 90px;
+	margin-top:30px;
+	margin-left: 0;
+	background: #0063A0;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.menu >li{
+	position: relative;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.menu>li> a{
+	display: block;
+	padding:25px 15px;
+	color: #fff;
+	font-family:'tahoma';
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color:#01C5A2;
+	transition: all .4s;
+}
+
+.menu li {
+	display: block;
+	padding:10px ;
+	color: #fff;
+    margin-top: auto;
+    display: inline-block;
+	font-family:'tahoma';
+	text-decoration: none;
+	
+}
+
+/*............ TABLA.................*/
+table {
+   margin-top: 10px;
+   text-align: center;
+   width: 75%;
+   grid-auto-rows: 50px;
+}
+
+th,td {
+   padding:2px;
+}
+
+th {
+   background: #eee;
+}
+h1{
+    text-align: center;
+}
+/*........... Formulario....................*/
+body {
+	font-family:arial;
+	margin:0;
+}
+*{
+	box-sizing: border-box;
+}
+form{
+	border:2px solid #009fda;
+	width: auto;
+}
+
+.formulario{
+	background:#fff;
+	margin: 200px;
+   position: relative;
+	padding: 5px;
+    padding: 15px;
+    left: auto;
+    
+}
+h1{
+	text-align: center;
+	color: #009fda;
+	font-size:40px; 
+}
+	
+
+.button{
+    background:#7f8c8d;
+    color: white;
+    font-size: 15px;
+    margin:5px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 115px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+    letter-spacing: 1px;
+    
+}
+.button.actualizar{
+    margin-left: 25%;
+    background: #30d616;
+    box-shadow: 0px 3px 0px #328125;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 12pt;
+}
+.button.green{
+    background: #30d616;
+    box-shadow: 0px 3px 0px #328125;
+    
+}
+.button.red{
+    background: #D11307;
+    box-shadow: 0px 3px 0px #910D05;   
+}
+.button.green:hover{
+    background: #166a09;
+    box-shadow: 0px 3px 0px #328125;
+    transition: all .4s;
+}
+.button.red:hover{
+    background: #7e1009;
+    box-shadow: 0px 3px 0px #910D05; 
+    transition: all .4s;
+}
+.table_input{
+    display: block;
+    padding-left: 10px;
+    margin-left: auto;
+}
+.data_delete{
+     text-align: center;
+    
+}
+.data_delete p{
+    font-size: 15.5pt;
+}
+
+.data_delete h2{
+    font-size: 20pt;
+    color: rgb(255, 0, 0);
+}
+.data_delete span{
+    font-weight: bold;
+    color: hsl(235, 100%, 14%);
+    font-size: 14pt;
+    
+}
+.data_delete form{
+    margin-bottom: 165px;
+    
+}
+legend, label{
+	font-weight:bold;
+}
+
+p{
+	margin-left: 15px;
+	margin-top: 5px;
+	font-size: 11px;
+	color: #555555;
+}
+input.p{
+	margin-top:1;
+	
+}
+
+input{
+	margin-bottom: 6px;
+	height: 40px;
+	box-shadow: 0px 3px 0px #373c3c;
+	margin-top: 5px;
+	font-size: 13px;
+}
+input[type=checkbox]{
+
+	width: 5%;
+	border-radius: 2px;
+	margin-top:45px;
+}
